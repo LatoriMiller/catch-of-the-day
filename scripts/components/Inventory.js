@@ -3,7 +3,7 @@ import AddFishForm from './AddFishForm';
 import h from '../helpers';
 import autobind from 'autobind-decorator';
 import Firebase from 'firebase';
-const ref = new Firebase ('https://catch-of-the-day.firebaseio.com/');
+const ref = new Firebase ('https://catch-of-the-day-957b8.firebaseio.com/');
 /*
   Inventory
   <Inventory/>

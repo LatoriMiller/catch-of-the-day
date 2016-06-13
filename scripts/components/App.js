@@ -4,8 +4,6 @@ import Rebase from 're-base';
 import Catalyst from 'react-catalyst';
 import reactMixin from 'react-mixin';
 import autobind from 'autobind-decorator';
-//import Router from 'react-router';
-
 import Header from './Header';
 import Inventory from './Inventory';
 import Order from './Order';
