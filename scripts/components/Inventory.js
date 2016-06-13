@@ -3,7 +3,7 @@ import AddFishForm from './AddFishForm';
 import h from '../helpers';
 import autobind from 'autobind-decorator';
 import Firebase from 'firebase';
-const ref = new Firebase ('https://catch-of-the-day-957b8.firebaseio.com/');
+const ref = new Firebase ('https://brilliant-inferno-1937.firebaseio.com/');
 /*
   Inventory
   <Inventory/>
@@ -29,6 +29,8 @@ class Inventory extends React.Component{
         <p>Sign in to manage your store's inventory</p>
         <button className="github" onClick={this.authenticate.bind(this, 'github')}> Log In with Github</button>
         <button className="facebook" onClick={this.authenticate.bind(this, 'facebook')}> Log In with Facebook</button>
+        <button className="twitter" onClick={this.authenticate.bind(this, 'twitter')}> Log In with Twitter</button>
+
       </nav>
     )
   }
